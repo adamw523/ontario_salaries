@@ -1,0 +1,12 @@
+ipython:
+  build: jupyter/
+  ports:
+    - 7888:8888
+  volumes:
+    - ./notebooks:/home/jovyan/work
+    - .:/data
+  environment:
+    JUPYTER_RUNTIME_DIR: /data/noteboos
+
+
+

@@ -5,8 +5,6 @@ ipython:
   volumes:
     - ./notebooks:/home/jovyan/work
     - .:/data
-  environment:
-    JUPYTER_RUNTIME_DIR: /data/noteboos
 
 
 

@@ -5,6 +5,7 @@ ipython:
   volumes:
     - ./notebooks:/home/jovyan/work
     - .:/data
-
+  environment:
+    GRANT_SUDO: 'yes'
 
 
